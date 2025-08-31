@@ -701,6 +701,44 @@ p {
     color: #718096;
 }
 
+/* Make English and Hindi text appear on separate lines in implication cards */
+.implication-card ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.implication-card ul li .english {
+    color: #2d3748;
+    font-weight: 500;
+}
+
+.implication-card ul li .hindi {
+    color: #718096;
+    font-weight: 400;
+    font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+/* Make English and Hindi text appear on separate lines in prevention cards */
+.prevention-card ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.prevention-card ul li .english {
+    color: #2d3748;
+    font-weight: 500;
+}
+
+.prevention-card ul li .hindi {
+    color: #718096;
+    font-weight: 400;
+    font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
 /* Definition Content */
 .definition-content {
     display: grid;
